@@ -276,4 +276,4 @@ with gr.Blocks() as demo:
                            outputs=[baseline_gallery]
                         )
 
-demo.launch()
+demo.launch(share=False)
